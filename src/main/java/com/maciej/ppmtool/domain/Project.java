@@ -16,7 +16,7 @@ public class Project {
     private Long id;
     private String projectName;
     private String projectIdentifier;
-    private String desciption;
+    private String description;
     private Date stat_date;
     private Date end_date;
     private Date created_at;
