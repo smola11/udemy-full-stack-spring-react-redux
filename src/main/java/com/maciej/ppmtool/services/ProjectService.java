@@ -12,7 +12,7 @@ public class ProjectService {
     @Autowired
     private ProjectRepository projectRepository;
 
-
+    // To update project we just need to pass id in the body of the request; JPA knows automatically that it is an update;
     public Project saveOrUpdateProject(Project project) {
         try {
             project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
